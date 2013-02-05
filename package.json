@@ -1,0 +1,25 @@
+{
+  "name"              : "Masquerade",
+  "main"              : "Masquerade.js",
+  "description"       : "Simple HTTP Debugging Proxy",
+  "version"           : "0.0.1",
+  "keywords"          : [ "proxf" ],
+  "homepage"          : "https://github.com/sethmcl/masquerade",
+  "engines"           : {
+    "node"            : ">=0.8.0"
+  },
+  "bin"               : {
+    "tag-cam-server"          : "./bin/server"
+  },
+  "licenses"          : [{
+    "type"            : "Apache 2.0"
+  }],
+  "dependencies"      : {
+    "express"           : "3.0.0beta4",
+    "colors"            : "0.6.0",
+    "dustjs-linkedin"   : "0.6.0",
+    "consolidate"       : "0.3.0",
+    "cradle"            : "*"
+  },
+  "os": ["!win32"]
+}
