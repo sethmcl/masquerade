@@ -1,3 +1,4 @@
 [
-  { "url": "style", "localFile": "/home/smclaugh/dev/sethmcl/masquerade/rules.json" }
+  { "url": "style", "localFile": "/home/smclaugh/dev/sethmcl/masquerade/rules.json" },
+  { "url": "google", "localFile": "/home/smclaugh/dev/sethmcl/masquerade/rules.json" }
 ]

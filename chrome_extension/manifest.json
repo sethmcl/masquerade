@@ -1,7 +1,6 @@
 {
   "name":               "Masquerade",
   "version":            "0.0.1",
-  "options_page":       "options.html",
   "icons":              {
     "16":               "icon16-min.png",
     "48":               "icon48-min.png",
@@ -11,12 +10,5 @@
   "description":        "Debugging HTTP Proxy Tools",
   "permissions":         [ "proxy" ],
   "background":         { "scripts": [ "background.js" ] },
-  "content_scripts":    [
-    {
-      "matches":        [ "*://www.linkedin.com/in/*", "*://www.linkedin.com/profile/view*" ],
-      "css":            [ "style.css" ],
-      "js":             [ "script.js" ],
-      "run_at":         "document_end"
-    }
-  ]
+  "devtools_page":      "devtools.html"
 }
