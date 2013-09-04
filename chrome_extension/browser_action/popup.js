@@ -1,6 +1,4 @@
-chrome.devtools.panels.create('Masquerade', '', 'panel/panel.html', function (panel) {
-  console.log(panel);
-});
+
 var config = {
   mode: 'fixed_servers',
   rules: {

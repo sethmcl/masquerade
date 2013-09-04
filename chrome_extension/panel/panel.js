@@ -1,6 +1,11 @@
-chrome.devtools.panels.create('Masquerade', '', 'panel/panel.html', function (panel) {
-  console.log(panel);
+/*browser:true*/
+chrome.devtools.network.onRequestFinished.addListener(
+  function (request) {
+    var div = document.createElement('div');
+    div.innerHTML = JSON.stringify(request);
+    document.body.appendChild(div);
 });
+
 var config = {
   mode: 'fixed_servers',
   rules: {

@@ -10,5 +10,9 @@
   "description":        "Debugging HTTP Proxy Tools",
   "permissions":         [ "proxy" ],
   "background":         { "scripts": [ "background.js" ] },
-  "devtools_page":      "devtools.html"
+  "devtools_page":      "devtools.html",
+  "browser_action": {
+    "default_icon": "icon16-min.png",
+    "default_popup": "browser_action/popup.html"
+  }
 }
